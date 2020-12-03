@@ -18,7 +18,7 @@ require("./Schema/Color");
 require("./Schema/issue");
 
 
-const mongoURI="mongodb+srv://techfix:<MongoDB-Password>@cluster0.o9qw2.mongodb.net/TechFixDB?retryWrites=true&w=majority"
+const mongoURI="mongodb+srv://NewTechFixDB:<Password>@cluster0.o9qw2.mongodb.net/TechFixDB?retryWrites=true&w=majority"
 mongoose.connect(mongoURI,{
     useNewUrlParser:true,
     useUnifiedTopology:true,
